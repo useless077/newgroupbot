@@ -1,0 +1,29 @@
+{
+      "name": "Serena",
+      "description": "Personal use and learn Pyrogram bot.",
+      "keywords": [
+         "telegram",
+         "pyrogram"
+      ],
+      "repository": "https://github.com/Barath-XD/TelegramBot",
+      "env": {
+          "API_ID": {
+          "description": "Enter your api id",
+          "required": true
+          },
+          "API_HASH": {
+          "description": "Enter your api hash",
+          "required": true
+          },
+          "TOKEN": {
+          "description": "Enter your bot token",
+          "required": true
+          }
+       },
+         "addons": [
+      {
+         "options": {
+            "version": "15"
+         },
+         "plan": "heroku/python:mini"
+      }
